@@ -20,7 +20,7 @@ public class OpenBrowserDemo {
         driver.navigate().back();
 
         Thread.sleep(1000);
-        //
+
         driver.navigate().forward();
         System.out.println(driver.getTitle());
 
